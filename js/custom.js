@@ -21,12 +21,8 @@
             { src: 'images/slides/2.jpg'  },
             { src: 'images/slides/3.jpg'  },
             { src: 'images/slides/4.jpg'  },
-            { src: 'images/slides/5.jpg'  },
             { src: 'images/slides/6.webp' },
-            { src: 'images/slides/7.jpg'  },
             { src: 'images/slides/8.webp' },
-            { src: 'images/slides/9.jpg'  },
-            { src: 'images/slides/10.webp'}
         ],
         delay: 7000, // delay between slide transition
         timer: false, // disable timer
@@ -37,25 +33,25 @@
         transitionDuration: 2000 // ^ lasts two seconds
     });
 
-    // MUSIC
+    /*// MUSIC
     $('#music').prop('volume', 0.1); // set music volume
 
     // MUSIC INTERACTION EVENT
     $(document).one('click', function() {
       $('#track-selector').css({'display': ''});
       startPlayer();
-    });
+    });*/
 
     // PARALLAX
-    /*$('.home-info').tilt({
+    $('.home-info').tilt({
       maxTilt: 20, // max tilt
       scale: 1.3, // zoom scale
       perspective: 700, // tilt agressiveness
       speed: 3000, // enter/exit anim speed
-    });*/
+    });
 })(jQuery);
 
-// COPY DISCORD TO CLIPBOARD
+/*// COPY DISCORD TO CLIPBOARD
 function copyDiscord() {
   navigator.clipboard.writeText('yo.ru');
   alert('Copied! yo.ru');
@@ -142,4 +138,4 @@ function startPlayer() {
        }
     });
   }
-}
+}*/
